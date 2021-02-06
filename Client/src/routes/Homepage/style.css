@@ -1,0 +1,48 @@
+.topmenu{
+    height: 65px;
+    margin: 0;
+    border: none;
+    background: none !important;
+
+    font-weight: bold;
+    text-align: center !important;
+}
+
+.topmenu a:hover{
+    color: #fff !important;
+}
+
+.ant-menu-item-selected {
+    color:#fff !important;
+}
+
+.search{
+    position:absolute;
+    top:calc((100vh - 65px)/2 + 50px);
+    left: calc(50vh);
+
+    width: 55%;
+    height: 50px;
+    background: none !important;
+}
+
+.search input{
+    background: none !important;
+    
+    border-width: 3px !important;
+    border-radius: 25px !important;
+
+    text-align: center !important;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #fff;
+}
+
+.search input::selection{
+    border-color: #777 !important;
+}
+
+.search i{
+    font-size: 20px !important;
+    color: #fff !important;
+}
